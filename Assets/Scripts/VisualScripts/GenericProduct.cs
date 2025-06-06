@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 
-/// GenericProduct - Custom Visual Scritping Node
+/// GenericProduct - Custom Visual Scripting Node
 /// by Connor McGrath
 ///
 /// Multiplies all input values and returns their product.

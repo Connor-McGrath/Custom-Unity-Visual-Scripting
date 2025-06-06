@@ -1,6 +1,6 @@
 using Unity.VisualScripting;
 
-/// IsOnLayer - Custom Visual Scritping Node
+/// IsOnLayer - Custom Visual Scripting Node
 /// by Connor McGrath
 ///
 /// Return boolean value from testing the layer of a game object against a supplied layermask.
