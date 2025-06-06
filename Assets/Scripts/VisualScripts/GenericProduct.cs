@@ -24,15 +24,10 @@ namespace CM.VSNodes
 
         public override object Operation(IEnumerable<object> values)
         {
-            var valueList = values.ToList();
-            var result = valueList[0];
-
-            for (int i = 1; i < valueList.Count; i++)
-            {
-                result = Operation(result, valueList[i]);
-            }
-
-            return result;
+            //Convert the enumerable values to a list
+            //For each pair of the (running total, next item)...
+            //Call the overload Operation(a, b)
+            return values.ToList().Aggregate((a, b) => Operation(a, b));
         }
     }
 }
