@@ -12,7 +12,7 @@ using Unity.VisualScripting;
 
 namespace CM.VSNodes
 {
-    [UnitCategory("Math/Generic")]
+    [UnitCategory("Math/Generic/...")]
     [UnitTitle("Multiply")]
     [TypeIcon(typeof(Multiply<>))]
     public sealed class GenericProduct : Sum<object>
