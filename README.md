@@ -7,7 +7,8 @@ A workshop space to tinker with how to make new custom nodes.
 - ~~Multi-Input Multiplication Node~~
     - ~~Subtraction and Division as well~~
 - ~~Layermask comparison~~
-    - Flow-Branching Select-Style node based on object layer
+    - ~~Flow-Branching Select-Style node based on object layer~~
+        - Fix UI Issues: Faulty inspector selection and replace indices with layer names
 - Bitwise operators
 - Multi-Input boolean operators and maybe some others
 - Rounding to specific amounts of decimals

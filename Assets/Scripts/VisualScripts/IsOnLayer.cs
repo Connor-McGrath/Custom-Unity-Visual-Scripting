@@ -11,8 +11,8 @@ using UnityEngine;
 
 namespace CM.VSNodes
 {
-    [UnitTitle("Is On Layer"),
-    TypeIcon(typeof(LayerMask))]
+    [UnitTitle("Is On Layer")]
+    [TypeIcon(typeof(LayerMask))]
     public class IsOnLayer : Unit
     {
         [DoNotSerialize]
