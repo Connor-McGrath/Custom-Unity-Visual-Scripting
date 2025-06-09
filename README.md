@@ -9,7 +9,11 @@ A workshop space to tinker with how to make new custom nodes.
 - ~~Layermask comparison~~
     - ~~Flow-Branching Select-Style node based on object layer~~
         - Fix UI Issues: Faulty inspector selection and replace indices with layer names
-- Bitwise operators
+- ~~Bitwise and Binary operators~~
+    - Better interface, display the binary digits
+    - Custom svg's for icons? Is this possible?
+    - Verify the logic is correct, i.e. negatives and edge cases
+        - Support more options than just int? Do shorts/bytes have any value in being added to the scripting graph?
 - Multi-Input boolean operators and maybe some others
 - Rounding to specific amounts of decimals
     - Component-wise support for vectors
